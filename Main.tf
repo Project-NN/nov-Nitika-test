@@ -1,3 +1,8 @@
+provider"aws"{
+  region="us-east-2"
+}
+
+
 variable "image" {
   type = string
   default = "ami-0603cbe34fd08cb81"
